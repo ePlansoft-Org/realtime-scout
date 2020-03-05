@@ -88,4 +88,4 @@ if (typeof showLoading === "function") {
 
 ## References
 
-[pdf.js]: (https://github.com/mozilla/pdf.js)
+[pdf.js](https://github.com/mozilla/pdf.js)
