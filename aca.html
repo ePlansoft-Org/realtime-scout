@@ -9199,6 +9199,10 @@
                     var scoutDB = db.createObjectStore("uploads");
                 };
 
+
+                /**************************************************************************
+                 * Hook into existing function on page
+                 **************************************************************************/
                 var validatedPDF = [];
                 if (typeof showLoading === "function") {
                     // copy original function
@@ -9217,12 +9221,11 @@
                             }
                         }
 
-                        // now invoke original showLoading function
-                        oldShowLoading(needValidate);
+                        oldShowLoading(needValidate); //invoke original showLoading function
                     }
 
+                    // run hooked function
                     showLoading = newShowLoading;
-                    // safe to use the function
                 }
 
                 function scoutCheck(uploadedFiles) {
