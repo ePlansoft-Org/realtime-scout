@@ -1,9 +1,5 @@
-# Real-time Scout using pdf.js
+# Real-time Scout using client-side pdf.js
 > Client-side PDF file analysis
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 Proof of concept for implemention pdf.js for client-side PDF checking. Requires only [pdf.js](https://github.com/mozilla/pdf.js) library and nothing else.
 
