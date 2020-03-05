@@ -73,12 +73,13 @@ if (typeof showLoading === "function") {
     showLoading = newShowLoading;
 }
 ```
-## Project Folder Description
+## Project File Description
 
 * aca.html - <i>main file for this poc</i>
-* scout.js - <i>the one Javscript file to do all our stuff</i>
-* parameter.js - <i>configuration file in JSON format</i>
-* Analysis.js - <i>small helper Class</i>
+* js/scout.js - <i>the one Javscript file to do all our stuff</i>
+* js/parameter.js - <i>configuration file in JSON format</i>
+* js/Analysis.js - <i>small helper Class</i>
+* test folder - <i>various PDF files for testing</i>
 
 ## Technology Dependencies
 
@@ -87,4 +88,4 @@ if (typeof showLoading === "function") {
 
 ## References
 
-[pdf.js]: https://github.com/mozilla/pdf.js
+[pdf.js]: (https://github.com/mozilla/pdf.js)
