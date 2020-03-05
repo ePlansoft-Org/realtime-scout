@@ -76,7 +76,8 @@ if (typeof showLoading === "function") {
 * js/parameter.js - <i>configuration file in JSON format</i>
 * js/Analysis.js - <i>small helper Class</i>
 * test folder - <i>various PDF files for testing</i>
-
+* aca folder - <i>miscellaneous files (not needed)</i>
+  
 ## Technology Dependencies
 
 * Browser that support IndexedDB and FileReader API (basically almost all modern browsers)
