@@ -7,7 +7,7 @@
 
 Proof of concept for implemention pdf.js for client-side PDF checking. Requires only [pdf.js](https://github.com/mozilla/pdf.js) library and nothing else.
 
-![](realtime-scout.png)
+<kbd>![](realtime-scout.png)</kbd>
 
 ## Getting Started
 
