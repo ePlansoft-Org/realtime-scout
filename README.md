@@ -44,6 +44,12 @@ validatePDF = newFunction;
 ## Main code block
 
 ```sh
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.min.js"></script>
+<script src="js/parameters.js"></script>
+<script src="js/Analysis.js"></script>
+<script src="js/scout.js"></script>
+
 var validatedPDF = [];
 if (typeof showLoading === "function") {
     // copy original function
